@@ -134,7 +134,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     "transmit_routing_preference=less_driving&"+
                     "origin="+source.latitude+","+source.longitude+"&"+
                     "destination="+destination.latitude+","+destination.longitude+
-                    "key=AIzaSyCvARYgccF4XVh6aNDxJTv66F9WVs3AiaM";
+                    "key=";
             Log.d("!!!url",requestUrl);*/
             /*url = "https://api.myjson.com/bins/11fjuh";
             JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
@@ -257,13 +257,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             try{
 
-                requestUrl = "https://maps.googleapis.com/maps/api/directions/json?"+
+                /*requestUrl = "https://maps.googleapis.com/maps/api/directions/json?"+
                         "mode=driving&"+
                         "transmit_routing_preference=less_driving&"+
                         "origin="+source.latitude+","+source.longitude+"&"+
                         "destination="+destination.latitude+","+destination.longitude+
-                        "key=AIzaSyCvARYgccF4XVh6aNDxJTv66F9WVs3AiaM";
-                Log.d("!!!url",requestUrl);
+                        "key=";
+                Log.d("!!!url",requestUrl);*/
 
             }catch(Exception e){
 

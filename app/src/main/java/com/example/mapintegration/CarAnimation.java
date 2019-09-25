@@ -220,7 +220,7 @@ public class CarAnimation extends AppCompatActivity implements OnMapReadyCallbac
                                         blackPolyline.setPoints(p);
                                     }
                                 });
-                                polyLineAnimator.start();
+                        //        polyLineAnimator.start();
 
                                 carMarker = googleMa.addMarker(new MarkerOptions().position(new LatLng(22.551117,88.331785))
                                         .flat(true)
